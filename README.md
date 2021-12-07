@@ -157,8 +157,6 @@ Following are the points in favor of Linked Lists.
 
 ---
 ## Hash Table
-<<<<<<< HEAD
-=======
 A data type that stores **key, value** pairs. **Hash map/table** are internal data structure, and **Dictionary** is a python specific implementation of hash table.
 
 * When you store data as a **2D list** in the memory, it stores data as contiguous memory locations on the RAM. 
