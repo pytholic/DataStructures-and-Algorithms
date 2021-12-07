@@ -281,7 +281,6 @@ stp::map<string, int> prices;
 prices['match 6'] = 310
 prices['match 7'] = 430
 ```
->>>>>>> badef35c5015da1ef4ae011f43ce733798725349
 
 ### Implementing Hash Map in Python
 We create a manual class to implement **hash table** in python. We create some functions to get `ascii` hash values, `add` item to hash table and `get` an items value from has table.
@@ -429,9 +428,7 @@ print(table.arr) # Each element will be a list
 print(table['6-Mar'])
 
 ```
-
-<<<<<<< HEAD
-
+---
 ## Stack
 **Last In First Out (LIFO)** data structure. An example usage can be **browser history**, where we can press the `back` button and get the last visited website. We use `push` and `pop` opeartion to insert and get items from thew stack.
 
@@ -446,5 +443,7 @@ print(table['6-Mar'])
 ### Comparison with List/Array
 In case of **list or array**, if we need to allocate additional memory, it will be costly. If we don't have enough capcaity for additional elements, it will copy all the existing elements to another location which is inefficient w.r.t both time and memory.
 This is one of the reasons why it is `not recommened` to use **list** as stack in python. The recommended approach is to use **collections.deque**, which is based on **doubly linked-lists**.
-=======
->>>>>>> badef35c5015da1ef4ae011f43ce733798725349
+
+---
+## Queue
+**Queue** is `FIFO` (First In First Out) data stucture.
